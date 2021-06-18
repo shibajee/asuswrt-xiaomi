@@ -1,0 +1,16 @@
+menu "ASUS Miscellaneous options"
+
+config  SINGLE_SKU_IN_DRIVER
+        bool "Single sku in driver, not file"
+        default n
+
+config  MTD_JFFS2_LEN
+        hex "MTD JFFS2 Partition Length (Unit:Bytes)"
+        default 0x0
+
+config  MODEL_RTAC1200V2
+        bool "RT-AC1200_V2"
+        default n
+
+endmenu
+
